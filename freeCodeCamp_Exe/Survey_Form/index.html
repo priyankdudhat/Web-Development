@@ -1,0 +1,89 @@
+<!-- Survey Form Page:- 2nd Exersice from freeCodeCamp.org  -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="depression">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <input type="text" class="input-controll" id="name" name="name" placeholder="Enetr your name" required>
+            </div>
+            <div>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" class="input-controll" id="email" name="email" placeholder="Enetr your email"
+                    required>
+            </div>
+            <div>
+                <label id="number-label" for="number">Age</label>
+                <input type="number" class="input-controll" id="number" name="age" min="10" max="110"
+                    placeholder="Enter your age">
+            </div>
+
+            <div>
+                <p>Designantion</p>
+                <select id="dropdown" class="input-controll" name="designantion" required>
+                    <option disabled selected value>Select your current designation</option>
+                    <option value="student">Student</option>
+                    <option value="houseworker">House Worker</option>
+                    <option value="self-employed">Self Employed</option>
+                    <option value="job">Full time job</option>
+                    <option value="internship">Internship</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Your Gender</p>
+
+                <label for="male"> <input type="radio" class="input-radio" id="male" name="gender" value="male"
+                        checked />Male</label>
+
+                <label for="female"><input type="radio" class="input-radio" id="female" name="gender"
+                        value="female" />Female</label>
+
+                <label for="other"><input type="radio" class="input-radio" id="other" name="gender"
+                        value="other" />Other</label>
+            </div>
+            <div>
+                <p>Choose youe hobby</p>
+
+                <label for="hobby1"> <input type="checkbox" class="input-checkbox" id="hobby1" name="hobby1"
+                        value="Swmming" />Swimming</label>
+
+                <label for="hobby2"> <input type="checkbox" class="input-checkbox" id="hobby2" name="hobby2"
+                        value="Painting" />Painting</label>
+
+                <label for="hobby3"> <input type="checkbox" class="input-checkbox" id="hobby3" name="hobby3"
+                        value="Running" />Running</label>
+
+                <label for="hobby4"> <input type="checkbox" class="input-checkbox" id="hobby4" name="hobby4"
+                        value="Music Listening" />Running</label>
+
+                <label for="hobby5"> <input type="checkbox" class="input-checkbox" id="hobby5" name="hobby5"
+                        value="Singing" />Singing</label>
+            </div>
+
+            <div>
+                <p>Any Comment?</p>
+                <textarea id="comment" class="input-textarea" name="comment"
+                    placeholder="Leave your comment here..."></textarea>
+            </div>
+            <button type="submit" id="submit" class="submit-button">
+                Submit
+            </button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
