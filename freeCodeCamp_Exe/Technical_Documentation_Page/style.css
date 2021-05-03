@@ -1,0 +1,142 @@
+body{
+    background-color:white;
+    color: #25274d;
+    min-width:290px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background: #25274d;
+    color: white;
+    width:20%;
+    height:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-right: 3px solid #2e9cca;
+}
+
+header{
+    color:white;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li{
+    color: #2e9cca;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+ 
+/* #navbar li:hover{
+    background: white;
+    color: #2e9cca;
+}   */
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color:  white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar li a:hover{
+    color:#2e9cca;
+    background: white;
+}
+  
+#main-doc{
+    position: absolute;
+    margin-left: 22%;
+    padding: 20px;
+  margin-bottom: 100px;
+}
+
+#main-doc header{
+    text-align: left;
+    margin: 0px;
+    color: #2e9cca;
+}
+
+section article {
+    color: #25274d;
+    margin: 15px;
+}
+
+strong{
+    color: #2e9cca;
+    font-weight: thin;
+}
+
+figure {
+    /* border: 1px #2e9cca solid; */
+    margin: 20px 0;
+    padding: 20px;
+}
+  
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #25274d;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 300px;
+    }
+  
+    #navbar {
+      background-color: #25274d;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 300px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 300px;
+    }
+  }
