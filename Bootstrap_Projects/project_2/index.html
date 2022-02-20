@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- adding a bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- adding bootstrap icons -->
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- mapbox linking css -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+    <!-- custom css stlesheets     -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bootstrap Second Project</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand text-light logo-text">Rattlo</a>
+            <!-- collapse toggler button created - when screen size is small that time it will disappear -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse class with links -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- use of ms-auto : pushing links in right side -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-4">
+                        <a href="#learn" class="nav-link text-light">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#questions" class="nav-link text-light">Services</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#instructor" class="nav-link text-light">About Us</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#instructor" class="nav-link text-light">Blog</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#instructor" class="nav-link text-light">Login</a>
+                    </li>
+                    <button class="btn btn-outline navbar-btn ">Contact Us</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="p-5 bg-primary text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="text-white">
+                    <h1><strong><u>Marketing</u></strong> smarts</span><br><span class="text-warning"> for big ideas. like,</span></h1>
+                    <!-- class lead helps to make text bigger -->
+                    <!-- my-4 means: margin on y axis(top-bottom) 4 -->
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime ratione
+                        nisi
+                        asperiores Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aut totam dolor
+                        temporibus, sunt repellendus?
+                        !</p>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime ratione
+                        nisi
+                    </p>
+                    <button class="btn btn-primary btn-lg btn-outline" data-bs-toggle="modal" data-bs-target="#enroll">This is the
+                        really fun</button>
+                </div>
+                <img class="img-fluid w-40 my-4 img-circle" src="images/image1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Branding -->
+    <section class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>
+                <div class="col-md-6 g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>
+                <div class="col-md g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>
+                <div class="col-md g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>
+                <div class="col-md g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>
+                <div class="col-md g-4">
+                    <img class="img-thumbnail" src="images/walmart_logo.png" alt="">
+                </div>          
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- bootsrap javascrip cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

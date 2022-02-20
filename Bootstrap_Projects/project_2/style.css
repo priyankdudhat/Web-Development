@@ -1,0 +1,21 @@
+/* logo text style */
+.logo-text{
+    font-weight: 600;
+    font-size: 24px;
+}
+/* navbar button style */
+.btn-outline {
+    color:white;
+    background-color:none;
+    border-color: white;
+    font-weight: bold;
+    border-radius: 0;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: white;
+  color: rgb(0, 104, 189);
+  border-color: white; 
+}
