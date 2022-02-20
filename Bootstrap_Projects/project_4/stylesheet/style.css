@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
+:root{
+    --bg-color: #F5C0C0;
+    --font-color: black;
+    --secondary-color:#ff6600;
+    --hover-color: rgb(191, 220, 234);
+
+    --font-family: 'M PLUS 1p' , sans-serif;;
+}
+
+body, html, section, div{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+nav, section{
+    overflow-x: hidden;
+}
+
+/* navbar styling start */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.navbar .container .navbar-brand{
+    color:var(--font-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .container .collapse .navbar-nav{
+    padding-left: 70px;
+}
+
+.navbar .container .collapse .navbar-nav a, i{
+    color: var(--font-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.5;
+    transition: 0.4s ease;
+}
+
+.navbar .container .collapse .navbar-nav a:hover ,i:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* .navbar .container .collapse .navbar-nav .fa-user-circle{
+} */
+/* navbar styling end */
+
+/* Branding Styling start */
+.branding .container .branding-left{
+    color: var(--font-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.branding .container .branding-left p{
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 0.2vh;
+    font-weight: 500;
+}
+
+.branding .container .branding-left h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+}
+
+.btn{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0px;
+    padding: 14px 40px;
+    margin-top: 20px;
+}
+/* branding styling end */
